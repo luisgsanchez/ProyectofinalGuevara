@@ -1,0 +1,19 @@
+{
+  "gasolinas": [
+    {
+      "id": 1,
+      "tipo": "Corriente",
+      "precio": 9800
+    },
+    {
+      "id": 2,
+      "tipo": "Extra",
+      "precio": 12400
+    },
+    {
+      "id": 3,
+      "tipo": "EcoDiésel",
+      "precio": 8700
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+/* =============================
+   RESET + FUENTE
+============================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background: #0a0f1b;
+    color: #e3e9ff;
+    padding: 25px;
+}
+
+/* =============================
+   HEADER
+============================= */
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #00b7ff, #0066ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.85;
+}
+
+/* =============================
+   CARD
+============================= */
+.card {
+    background: rgba(15, 22, 40, 0.75);
+    width: 95%;
+    max-width: 480px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 14px;
+    border: 1px solid rgba(0, 102, 255, 0.3);
+    box-shadow: 0 0 25px rgba(0, 102, 255, 0.15);
+    backdrop-filter: blur(6px);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 35px rgba(0, 153, 255, 0.28);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #75c7ff;
+    text-shadow: 0 0 8px rgba(0, 186, 255, 0.4);
+}
+
+/* =============================
+   INPUTS & SELECTS
+============================= */
+select, input {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #1e2a48;
+    border-radius: 12px;
+    background: #0d162c;
+    color: #cfe0ff;
+    font-size: 1.05rem;
+    transition: 0.25s;
+}
+
+select option {
+    background: #0d162c;
+}
+
+select:focus,
+input:focus {
+    border-color: #008cff;
+    box-shadow: 0 0 12px rgba(0, 140, 255, 0.5);
+}
+
+/* =============================
+   BOTÓN
+============================= */
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 12px;
+    background: linear-gradient(90deg, #006eff, #00c8ff);
+    color: white;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 12px rgba(0, 174, 255, 0.45);
+    transition: 0.25s ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(90deg, #0099ff, #00e5ff);
+    box-shadow: 0 0 20px rgba(0, 206, 255, 0.7);
+}
+
+/* =============================
+   RESULTADO
+============================= */
+#resultado p {
+    font-size: 1.3rem;
+    color: #9ed0ff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
